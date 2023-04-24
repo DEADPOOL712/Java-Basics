@@ -1,7 +1,4 @@
 import java.util.Scanner;
-
-import javax.crypto.SealedObject;
-
 import java.util.Arrays;
 
 public class basics {
@@ -23,7 +20,7 @@ public class basics {
         // 5. case sensitive
 
         // ? ============ type casting ================= //
-        // * widening casting samll -> big (automatic)
+        // * widening casting samll -> big (automat ic)
         // int a = 10;
         // double b = (int) a;
 
@@ -132,7 +129,7 @@ public class basics {
         // ? ================== Array / Methods ================ //
         // * array declaration
 
-        // int arr[] = new int[5];
+        // int arr[] = new int[5]; // => initialization of array
         // String []animals = {"cow","cat"};
         // String animals[] = {"cwo","cat"};
 
@@ -165,12 +162,12 @@ public class basics {
         // System.out.println(num);
         // }
 
-        // ! copy Array
-        int num[] = { 1, 2, 3, 4, 5 };
-        int copyNum[] = new int[num.length];
-        System.arraycopy(num, 0, copyNum, 0, num.length);
-        for (int i : copyNum) {
-            System.out.println(i);
-        }
+        // ! copy Array using System.arraycopy(target,index,copyArr,index,length)
+        // int num[] = { 1, 2, 3, 4, 5 };
+        // int copyNum[] = new int[num.length];
+        // System.arraycopy(num, 0, copyNum, 0, num.length);
+        // for (int i : copyNum) {
+        // System.out.println(i);
+        // }
     }
 }
