@@ -90,6 +90,22 @@ public class basics {
         // System.out.println(Double.toString(dnum));
         // System.out.println(String.valueOf(dnum));
 
+        // ! convertin string into bytes array
+        // String message = "Hello vaibhav";
+        // int messageLen = message.length();
+        // byte byteMessage[] = message.getBytes();
+        // for (byte i : byteMessage) {
+        // System.out.println(i);
+        // }
+
+        // ! convertin string into char array
+        // char charMessage[] = new char[messageLen];
+        // message.getChars(0, messageLen, charMessage, 0); //
+        // startIndex,endIndex,destination,desEnd
+        // for (char c : charMessage) {
+        // System.out.println(c);
+        // }
+
         // ? ========= Taking user input / Scanner Class ========= //
 
         // * create new scanner obj and use to take input
