@@ -1,4 +1,4 @@
-package methods;
+
 // JAVA Methods 
 
 public class method {
@@ -38,6 +38,7 @@ public class method {
         // ? scope rule are the same as js
 
         // ? recursion : fun calling it self
+        System.out.println("Hello test");
 
     }
 }
