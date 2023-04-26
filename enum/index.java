@@ -1,3 +1,5 @@
+import java.util.logging.Level;
+
 // enum is special class to group constants 
 // enum can also use inside class 
 public class index {
@@ -21,7 +23,7 @@ public class index {
         for (LEVEL var : LEVEL.values()) {
             System.out.println(var);
         }
-
-        System.out.println("H");
+        // we can only call enum method using const of enum class
+        LEVEL.LOW.info();
     }
 }
