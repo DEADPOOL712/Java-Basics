@@ -1,6 +1,7 @@
+package methods;
 // JAVA Methods 
 
-public class index {
+public class method {
 
     // ! normal function that return something
     static int calcAge(int year) {

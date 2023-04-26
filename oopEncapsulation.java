@@ -1,3 +1,4 @@
+
 // encapsulation is hiding data from user 
 // we access data use using setter and getter to change the data 
 // declare variable private 

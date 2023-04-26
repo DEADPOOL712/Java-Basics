@@ -1,3 +1,5 @@
+import java.nio.channels.ShutdownChannelGroupException;
+
 // modifier -> 4
 // default -> whene nothing is specify the code is access only on same pakage
 // public -> can access by any class 
@@ -27,6 +29,10 @@ class Student {
         this.pass = pass;
         System.out.println(" ==> The student constructor has been executed. <==");
         System.out.println(pass);
+    }
+
+    public class inner {
+        int x;
     }
 
 }
@@ -70,6 +76,13 @@ public class oopBasic {
 
         // final - can be use to create object
         // teacher thorfin = new teacher();
+
+        // inner class
+        // first create object of outerclass
+        Student s2 = new Student("bravo", 31);
+        // use following syntex to create obj from inner class
+        Student.inner in1 = s2.new inner();
+        in1.x = 8;
 
     }
 }
