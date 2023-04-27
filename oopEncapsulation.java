@@ -5,7 +5,7 @@
 // here the we can say Employe class is encapsulated
 class Employe {
     private int empId;
-    private String name;
+    // private String name;
 
     // to modifiy empId
     public int getEmpId() {

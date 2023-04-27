@@ -31,6 +31,7 @@ class Myweb extends Website {
 public class oopSuper {
     public static void main(String args[]) {
         Myweb v1 = new Myweb("Oxyton", 200);
+        v1.info();
         // System.out.println("Hello !");
     }
 }

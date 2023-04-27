@@ -1,6 +1,4 @@
 
-import java.util.function.DoubleBinaryOperator;
-
 // polymorphism is two type of 
 // run time  -> function overloading 
 // complie time -> functio overriding 

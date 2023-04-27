@@ -26,7 +26,7 @@ class Student {
     Student(String name, int pass) {
         this.name = name;
         this.pass = pass;
-        System.out.println(" ==> The student constructor has been executed. <==");
+        System.out.println(" ==> The student constructor has been executed. <==" + this.pass);
         System.out.println(pass);
     }
 
