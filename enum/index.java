@@ -1,4 +1,3 @@
-import java.util.logging.Level;
 
 // enum is special class to group constants 
 // enum can also use inside class 
@@ -16,7 +15,7 @@ public class index {
     }
 
     public static void main(String args[]) {
-        LEVEL myVariable = LEVEL.HIGH;
+        LEVEL myVariable = LEVEL.LOW;
         System.out.println(myVariable);
 
         // this will return array LEVEL.values();

@@ -24,6 +24,7 @@ class summerFruit extends Fruit {
 public class oopInheritance {
     public static void main(String args[]) {
         summerFruit SF1 = new summerFruit();
+
         SF1.name = "mango";
         SF1.type = "summer";
         SF1.rank = 2;
