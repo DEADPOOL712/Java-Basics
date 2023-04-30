@@ -54,10 +54,10 @@ public class oopPolymor {
         // ? college topic
         Animal an = new dog();
         an.sound();
-        // dog d = new dog();
-        // an = d;
+        dog d = new dog();
+        an = d;
 
-        // an.sound();
+        an.sound();
 
     }
 }
