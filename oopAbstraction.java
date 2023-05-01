@@ -7,6 +7,7 @@ abstract class DemoAbstract {
     public void normalMethod() {
         System.out.println("This is normla method ");
     }
+
 }
 
 class Animal extends DemoAbstract {
