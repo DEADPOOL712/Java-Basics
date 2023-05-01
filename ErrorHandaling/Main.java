@@ -46,15 +46,15 @@ public class Main {
         // ? Nested try catch block
         // use to hanlde inner error internally
         // syntax
-        try {
-            // The main try catch block
-            try {
-                // try something
-            } catch (ArithmeticException e) {
-                // handling specific exception inside try
-            }
-        } catch (Exception e) {
-            // The main Exception block
-        }
+        // try {
+        // The main try catch block
+        // try {
+        // try something
+        // } catch (ArithmeticException e) {
+        // handling specific exception inside try
+        // }
+        // } catch (Exception e) {
+        // The main Exception block
+        // }
     }
 }
