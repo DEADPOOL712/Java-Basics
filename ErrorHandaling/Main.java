@@ -18,29 +18,43 @@ public class Main {
         // }
 
         // ? ---- handaling specific execption
-        Scanner sc = new Scanner(System.in);
-        int marks[] = new int[3];
-        marks[0] = 999;
-        marks[1] = 419;
-        marks[2] = 598;
 
-        System.out.print("Enter the index of array : ");
-        int index = sc.nextInt();
+        // Scanner sc = new Scanner(System.in);
+        // int marks[] = new int[3];
+        // marks[0] = 999;
+        // marks[1] = 419;
+        // marks[2] = 598;
 
-        System.out.print("Enter the value of devider : ");
-        int devider = sc.nextInt();
+        // System.out.print("Enter the index of array : ");
+        // int index = sc.nextInt();
 
+        // System.out.print("Enter the value of devider : ");
+        // int devider = sc.nextInt();
+
+        // try {
+        // System.out.println("The result of devising : " + marks[index] / devider);
+        // } catch (ArithmeticException e) {
+        // System.out.println("**** ArithmeticException occur !");
+        // } catch (ArrayIndexOutOfBoundsException e) {
+        // System.out.println("**** Array index out of Execption !");
+        // } catch (Exception e) {
+        // System.out.println("**** other Exception occur ");
+        // }
+
+        // System.out.println("End of the program");
+
+        // ? Nested try catch block
+        // use to hanlde inner error internally
+        // syntax
         try {
-            System.out.println("The result of devising : " + marks[index] / devider);
-        } catch (ArithmeticException e) {
-            System.out.println("**** ArithmeticException occur !");
-        } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("**** Array index out of Execption !");
+            // The main try catch block
+            try {
+                // try something
+            } catch (ArithmeticException e) {
+                // handling specific exception inside try
+            }
         } catch (Exception e) {
-            System.out.println("**** other Exception occur ");
+            // The main Exception block
         }
-
-        System.out.println("End of the program");
-
     }
 }
