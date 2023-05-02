@@ -1,9 +1,24 @@
-package ErrorHandaling;
-
-import java.util.Scanner;
+// custom exception created using Exception class
+class customException extends Exception {
+    public String toString() {
+        return "The custom Exception occur .";
+    }
+    public String getMessage() {
+        return "The Custom get Message.";
+    }
+}
 
 // Exception
 public class Main {
+    // method that can cause exception
+    // below method can cause ArithmeticException
+    public  static  double division(double x, double y,int index) throws ArrayIndexOutOfBoundsException{
+            int array[] = new int[2];
+            // setting the value of array in index
+            array[index] = 10;
+            double c = x/y;
+            return c;
+    }
     public static void main(String args[]) {
 
         // ? ---- try catch syntax
@@ -56,5 +71,28 @@ public class Main {
         // } catch (Exception e) {
         // The main Exception block
         // }
+
+        // ! Custom exception in java
+//        int a = 9;
+//        if (a > 0) {
+//            try {
+//                throw new customException();
+//            } catch (Exception e) {
+//                System.out.println("Exception : " + e);
+//                System.out.println("Custom Message : "+e.getMessage());
+//            }
+//        }
+
+        // ! Throws in java
+        // its is kind of declaration of exception it can occure so handle while using the method
+        // while using division method we have to handle Exception that can throws
+//        try {
+//            System.out.println("The result of division : "+division(9,2,5));
+//        }
+//        catch (Exception e){
+//            System.out.println("Exception --> : "+e);
+//        }
+//        System.out.println("The end of the program ");
+
     }
 }
