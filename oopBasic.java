@@ -81,6 +81,9 @@ public class oopBasic {
         Student s2 = new Student("bravo", 31);
         // use following syntex to create obj from inner class
         Student.inner in1 = s2.new inner();
+        System.out.println("Hello word ");
+
+        // using object of classs
         in1.x = 8;
 
     }

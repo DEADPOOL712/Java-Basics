@@ -4,6 +4,10 @@ import java.util.Arrays;
 public class basics {
     public static void main(String[] args) {
 
+        // test
+        int arr[] = new int[10];
+        String name[] = new String[10];
+
         // ? ============ datatypes and variables ================= //
         // * int, double, char, boolean, String
         // int a = 10;
@@ -165,7 +169,7 @@ public class basics {
         // System.out.println(matrixOfNumber[1][1]); // => 4
 
         // * Sorting and searching in array
-        // int numbers[] = { 7, 1, 3, 9, 11, 2, 55 };
+        int numbers[] = { 7, 1, 3, 9, 11, 2, 55 };
 
         // below method will mutate original array
         // Arrays.sort(numbers);
@@ -185,5 +189,8 @@ public class basics {
         // for (int i : copyNum) {
         // System.out.println(i);
         // }
+
+        Scanner s = new Scanner(System.in);
+
     }
 }

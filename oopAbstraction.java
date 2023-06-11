@@ -14,7 +14,6 @@ class Animal extends DemoAbstract {
     public void animalSound() {
         System.out.println("This is animal sound method ");
     }
-
 }
 
 public class oopAbstraction {

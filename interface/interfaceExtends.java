@@ -33,6 +33,7 @@ public class interfaceExtends {
     public static void main(String args[]) {
 
         // creating obj from class Q
+        System.out.println("Hellow !");
         Q objQ = new Q();
         objQ.method_p();
         objQ.method_p12();

@@ -14,6 +14,10 @@ class Operation {
     public void sum(double x, double y) {
         System.out.println(x + y);
     }
+
+    public boolean sum(boolean x, boolean y) {
+        return x && y;
+    }
 }
 
 // ! 2.function overriding
@@ -40,10 +44,12 @@ class cat extends Animal {
 public class oopPolymor {
     public static void main(String args[]) {
         // ? ex overloading
-        // Operation op = new Operation();
+        Operation op = new Operation();
+
         // call diff method based on agr pass
-        // op.sum(1, 33);
-        // op.sum(13.55, 22.2);
+        op.sum(1, 33);
+        op.sum(13.55, 22.2);
+        System.out.println(op.sum(true, true));
 
         // ? ex overriding
         // dog dogObj = new dog();
